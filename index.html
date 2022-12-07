@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Class</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+ <nav id="navbar">
+    <div id="logo"><img src="pngegg.png" alt="DP Yoga">
+    <a href="#" id="dp">dp</a></div>
+    <ul>
+<li class="item"><a href="#">Home</a></li>
+<li class="item"><a href="#">Services</a></li>
+<li class="item"><a href="#">About</a></li>
+<li class="item"><a href="#">Contact Us</a></li>
+
+
+    </ul>
+ </nav>
+ <section id="home">
+    <h1 class="h-primary" id="wel" >Welcome to dp yoga website</h1>
+    <p id="para">Yoga (/ˈjoʊɡə/ (listen);[1] Sanskrit: योग, lit. 'yoke' or 'union' pronounced [joːɡɐ]) is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control (yoke) and still the mind, recognizing a detached witness-consciousness untouched by the mind (Chitta) and mundane suffering (Duḥkha). There is a wide variety of schools of yoga, practices, and goals[2] in Hinduism, Buddhism, and Jainism,[3][4][5] and traditional and modern yoga is practiced worldwide.[6]
+
+        Two general theories exist on the origins of yoga. The linear model holds that yoga originated in the Vedic period, as reflected in the Vedic textual corpus, and influenced Buddhism; according to author Edward Fitzpatrick Crangle, this model is mainly supported by Hindu scholars. According to the synthesis model, yoga is a synthesis of non-Vedic and Vedic elements; this model is favoured in Western scholarship.[7][8]
+        
+        Yoga-like practices are first mentioned in the Rigveda as a non-Brahminical practice.[9] Yoga is referred to in a number of the Upanishads.[10][11][12] The first known appearance of the word "yoga" with the same meaning as the modern term is in the Katha Upanishad,[13][14] which was probably composed between the fifth and third centuries BCE.[15][16] Yoga continued to develop as a systematic study and practice during the fifth and sixth centuries BCE in ancient India's ascetic and Śramaṇa movements.[17] The most comprehensive text on Yoga, the Yoga Sutras of Patanjali, date to the early centuries of the Common Era;[18][19][note 1] Yoga philosophy became known as one of the six orthodox philosophical schools (Darśanas) of Hinduism in the second half of the first millennium CE.[20][web 1] Hatha yoga texts began to emerge between the ninth and 11th centuries, originating in tantra.[21][22]
+        
+        The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a posture-based physical fitness, stress-relief and relaxation technique,[23] consisting largely of the asanas;[24] this differs from traditional yoga, which focuses on meditation and release from worldly attachments.[23][25] It was introduced by gurus from India after the success of Swami Vivekananda's adaptation of yoga without asanas in the late 19th and early 20th centuries.[26] Vivekananda introduced the Yoga Sutras to the West, and they became prominent after the 20th-century success of hatha yoga</p>
+ </section>
+ <section class="services-container">
+    <h1 class="h-primary" id="our">Some Yoga Aasan</h1>
+    <div id="services">
+        <div class="box">
+            <img src="dipu1.png" alt="no logo">
+        <h2 class="h-secondary center">Pranayam</h2>
+        <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis tempora amet quos possimus aperiam architecto officiis accusantium perferendis facere est, ad voluptates at hic eveniet fuga, sint iure ratione distinctio delectus nostrum debitis similique!</p>
+        </div>
+        <div class="box">
+            <img src="child1.png" alt="no logo">
+        <h2 class="h-secondary center">Type of Yoga's Asanas</h2>
+        <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis tempora amet quos possimus aperiam architecto officiis accusantium perferendis facere est, ad voluptates at hic eveniet fuga, sint iure ratione distinctio delectus nostrum debitis similique!</p>
+        </div>
+        <div class="box">
+            <img src="yog.png" alt="no logo" id="yog">
+        <h2 class="h-secondary center" id="dh">Dhanurashan</h2>
+        <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis tempora amet quos possimus aperiam architecto officiis accusantium perferendis facere est, ad voluptates at hic eveniet fuga, sint iure ratione distinctio delectus nostrum debitis similique!</p>
+        </div>
+    </div>
+ </section>
+ <section>
+   <form action="mailto:divyanshpatidar85@gmail.com" method="post" enctype="text/plain">  <!-- "mailto:divyanshpatidar85@gmail.com" method="post" enctype="text/plain" -->
+        <label for="fname">Contact Us</label><br>
+        <input type="text" class="fm" id="fname" name="fname" placeholder="First name"><br>
+        <input type="text" class="fm" id="lname" name="lname" placeholder="Second Name"><br>
+        <input type="text" class="fm" id="m_number" name="m_n" placeholder="Mobile Number"><br>
+        <input type="text" class="fm" id="ad" name="ad" placeholder="Address"><br>
+        <input type="email" class="fm" id="em" name="em" placeholder="Email Id"><br>
+        <textarea class ="fm" name="suggestion" id="su" cols="30" rows="10" placeholder="suggestions"></textarea><br>
+        <input type="button" onclick="validation();" value="Validate all detail "><br>
+        <input type="submit" class="fm" value="Submit" >
+      </form>
+ </section>
+<section class="right-bar">
+    <div class="an">
+    <a href="https://www.instagram.com/divyanshpatidar85/" class="an" id="anchor-1" target="_blank"><img src="insta1.png" alt=""></a>
+    <a href="https://www.youtube.com/channel/UC7-82g83FXJ0xt6ONp8mNsA" class="an" id="anchor-2" target="_blank"><img src="yt1.png" alt="">
+    </a><a href="https://telegram.org/" class="an" id="anchor-3" target="_blank"><img src="tele1.png" alt=""></a>
+</div>
+</section>
+<script>
+    function validation(){
+        let first_name=document.getElementById('fname').value;
+        let last_name=document.getElementById('lname').value;
+        let mobile_number=document.getElementById('m_number').value;
+        let add=document.getElementById('ad').value;
+        let em=document.getElementById('em').value;
+        let su=document.getElementById('su').value;
+        let regName =  /^[a-zA-Z]+$/;
+        let phoneno = /^[1-9]{1}[0-9]{9}$/;
+        if(!regName.test(first_name)){
+            alert('Enter valid first name');
+            return false;
+        }
+       else if(!regName.test(last_name)){
+            alert('Enter valid last name');
+            return false;
+        }
+        else if(!phoneno.test(mobile_number)){
+           alert('Enter valid mobile number');
+           return false;
+        }
+        else if(add.length==0){
+           alert('Address is null');
+           return false;
+        }
+        else if(em.length==0){
+           alert('Email is null');
+           return false;
+        }
+        else if(su.length==0){
+           alert('Please fill suggestion box');
+           return false;
+        }else{
+              return succes; 
+        }
+ 
+    
+    }
+</script>
+</body>
+</html>
