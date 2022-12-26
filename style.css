@@ -129,7 +129,7 @@ a {
     border:2px solid red;
     padding: 2px;
     display:inline-block;
-    margin: 90px;
+    margin: 300px;
 }
 h2.h-secondary.center {
     text-align: center;
@@ -168,7 +168,7 @@ img#yog {
 
 form {
     margin-top: 4em;
-        margin-left: 17em;
+        margin-left: 10em;
         text-align: center;
         font-size: 121px;
         border: 3px solid red;
@@ -232,8 +232,8 @@ section.right-bar {
     display:flex;
     flex-direction:column;
     position:absolute;
-    margin-left: 329em;
-    margin-top: -426em;
+    margin-left: 269em;
+    margin-top: -484em;
    
 }
 a#anchor-1 {
@@ -341,3 +341,8 @@ input[type="button"] {
 p#btn {
     font-size: 64px;
 }
+#boxx1{
+    justify-item:center;
+    margin-left:98em;
+}
+    
